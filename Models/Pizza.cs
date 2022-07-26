@@ -5,7 +5,6 @@
     /// </summary>
     public class Pizza
     {
-
         /// <summary>
         /// ID {int} field getter setter
         /// </summary>
@@ -14,7 +13,7 @@
         /// <summary>
         /// Name {String} field getter setter
         /// </summary>
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         /// <summary>
         /// GlutenFree {bool} getter setter
